@@ -12,7 +12,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route exact path="/" element={<Photos />} />
+        <Route exact path="/picsome-ecommerce/" element={<Photos />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
     </div>

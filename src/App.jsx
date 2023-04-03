@@ -6,8 +6,6 @@ import Cart from "./pages/Cart";
 import Photos from "./pages/Photos";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
       <Header />

@@ -28,7 +28,7 @@ main.photos {
   grid-auto-flow: dense;
 }
 
-main.cart-page {
+.cart-page {
   padding: 10px;
 }
 

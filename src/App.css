@@ -149,3 +149,13 @@ a:hover {
 a:active {
   color: var(--light-blue);
 }
+
+@media (min-width: 1024px) {
+  header {
+    padding: 0 10em;
+  }
+
+  main.photos {
+    padding: 1em 10em;
+  }
+}

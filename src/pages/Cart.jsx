@@ -25,8 +25,8 @@ function Cart() {
   }
 
   return (
-    <div>
-      <h1>Cart goes here</h1>
+    <div className="cart-page">
+      <h1>Checkout</h1>
       {cartItemElements}
       <p className="total-cost">Total: {totalCostOfCart}</p>
       {cartItems.length > 0 ? (
